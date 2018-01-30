@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SolarWeather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_details" translatable="false">DetailsActivity</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="appodeal_key" translatable="false">d1f0a8a094b382b8c39963285fcf6f6bb7de9cd284421929</string>
+    
+    <string name="time">time</string>
+    <string name="summary">summary</string>
+    <string name="icon" translatable="false">icon</string>
+    <string name="nearestStormDistance">nearest Storm Distance</string>
+    <string name="nearestStormBearing">nearest Storm Bearing</string>
+    <string name="precipIntensity">precip Intensity</string>
+    <string name="precipProbability">precip Probability</string>
+    <string name="temperature">temperature</string>
+    <string name="apparentTemperature">apparent Temperature</string>
+    <string name="dewPoint">dew Point</string>
+    <string name="humidity">humidity</string>
+    <string name="pressure">pressure</string>
+    <string name="windSpeed">wind Speed</string>
+    <string name="windGust">wind Gust</string>
+    <string name="windBearing">wind Bearing</string>
+    <string name="cloudCover">cloud Cover</string>
+    <string name="uvIndex">uv Index</string>
+    <string name="visibility">visibility</string>
+    <string name="ozone">ozone</string>
+
+    <string name="apparentTemperatureHigh" translatable="false">apparent Temperature High</string>
+    <string name="apparentTemperatureHighTime" translatable="false">apparent Temperature High Time</string>
+    <string name="apparentTemperatureLow" translatable="false">apparen Temperature Low</string>
+    <string name="apparentTemperatureLowTime" translatable="false">apparent Temperature Low Time</string>
+    <string name="moonPhase">moon Phase</string>
+    <string name="precipAccumulation" translatable="false">precip Accumulation</string>
+    <string name="precipIntensityMax" translatable="false">precip Intensity Max</string>
+    <string name="precipIntensityMaxTime" translatable="false">precip Intensity Max Time</string>
+    <string name="precipType">precip Type</string>
+    <string name="sunriseTime">sunrise Time</string>
+    <string name="sunsetTime">sunset Time</string>
+    <string name="temperatureHigh" translatable="false">temperature High</string>
+    <string name="temperatureHighTime" translatable="false">temperature High Time</string>
+    <string name="temperatureLow" translatable="false">temperature Low</string>
+    <string name="temperatureLowTime" translatable="false">temperature Low Time</string>
+    <string name="uvIndexTime" translatable="false">uv IndexTime</string>
+
+    <string name="currently">currently</string>
+    <string name="hourly">hourly</string>
+    <string name="daily">daily</string>
+
+</resources>

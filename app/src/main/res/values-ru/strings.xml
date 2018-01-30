@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SolarWeather</string>
+    <string name="currently">сейчас</string>
+    <string name="daily">недельный</string>
+    <string name="hourly">на день</string>
+    <string name="cloudCover">облачное покрытие</string>
+    <string name="apparentTemperature">ощущаемая температура</string>
+    <string name="dewPoint">точка росы</string>
+    <string name="humidity">влажность</string>
+    <string name="moonPhase">фаза Луны</string>
+    <string name="nearestStormBearing">направление до ближайшего шторма</string>
+    <string name="nearestStormDistance">расстояние до ближайшего шторма</string>
+    <string name="ozone">озон</string>
+    <string name="precipIntensity">интенсивность осадков</string>
+    <string name="precipProbability">вероятность осадков</string>
+    <string name="precipType">тип осадков</string>
+    <string name="pressure">даление</string>
+    <string name="summary">сводка</string>
+    <string name="sunriseTime">восход</string>
+    <string name="sunsetTime">закат</string>
+    <string name="temperature">температура</string>
+    <string name="time">время</string>
+    <string name="uvIndex">уф индекс</string>
+    <string name="visibility">видимость</string>
+    <string name="windBearing">направление ветра</string>
+    <string name="windGust">порыв ветра</string>
+    <string name="windSpeed">скорость ветра</string>
+</resources>
