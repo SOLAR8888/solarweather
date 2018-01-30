@@ -1,7 +1,7 @@
 package com.solarapp.solarweather.models;
 
 import com.solarapp.solarweather.App;
-import com.solarapp.solarweather.api.WeatherAPI;
+import com.solarapp.solarweather.api.ApiKeys;
 import com.solarapp.solarweather.contracts.ContractMain;
 import com.solarapp.solarweather.models.forecast.Forecast;
 
@@ -41,7 +41,7 @@ public class ModelMain implements ContractMain.IMainModel {
         String lang = Locale.getDefault().getLanguage();
         try {
             forecast = App.getWeatherAPI()
-                    .getForecast(WeatherAPI.API_KEY,latitude,longitude,lang,"si").execute().body();
+                    .getForecast(ApiKeys.getKey(),latitude,longitude,lang,"si").execute().body();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -56,7 +56,7 @@ public class ModelMain implements ContractMain.IMainModel {
         System.out.println("getFirstForecast");
         String lang = Locale.getDefault().getLanguage();
         forecastObservable = App.getWeatherAPI()
-                .getForecastObservable(WeatherAPI.API_KEY,latitude,longitude,lang,"si");
+                .getForecastObservable(ApiKeys.getKey(),latitude,longitude,lang,"si");
         return forecastObservable;
     }
 
